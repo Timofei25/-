@@ -1,0 +1,238 @@
+object Form1: TForm1
+  Left = 286
+  Height = 267
+  Top = 100
+  Width = 221
+  Caption = 'Калькулятор'
+  ClientHeight = 247
+  ClientWidth = 221
+  Menu = MainMenu1
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 8
+    Height = 40
+    Top = 160
+    Width = 40
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 40
+    Top = 160
+    Width = 40
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 88
+    Height = 40
+    Top = 160
+    Width = 40
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 8
+    Height = 40
+    Top = 120
+    Width = 40
+    Caption = '4'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 48
+    Height = 40
+    Top = 120
+    Width = 40
+    Caption = '5'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 88
+    Height = 40
+    Top = 120
+    Width = 40
+    Caption = '6'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 40
+    Top = 80
+    Width = 40
+    Caption = '7'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 48
+    Height = 40
+    Top = 80
+    Width = 40
+    Caption = '8'
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 88
+    Height = 40
+    Top = 80
+    Width = 40
+    Caption = '9'
+    OnClick = Button9Click
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 48
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '0'
+    OnClick = Button10Click
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 8
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '±'
+    OnClick = Button11Click
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 88
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = ','
+    OnClick = Button12Click
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 128
+    Height = 80
+    Top = 160
+    Width = 40
+    Caption = '+'
+    OnClick = Button13Click
+    TabOrder = 12
+  end
+  object Button14: TButton
+    Left = 168
+    Height = 40
+    Top = 160
+    Width = 40
+    Caption = '-'
+    OnClick = Button14Click
+    TabOrder = 13
+  end
+  object Button15: TButton
+    Left = 128
+    Height = 40
+    Top = 120
+    Width = 40
+    Caption = '*'
+    OnClick = Button15Click
+    TabOrder = 14
+  end
+  object Button16: TButton
+    Left = 168
+    Height = 40
+    Top = 120
+    Width = 40
+    Caption = '/'
+    OnClick = Button16Click
+    TabOrder = 15
+  end
+  object Button17: TButton
+    Left = 128
+    Height = 40
+    Top = 80
+    Width = 40
+    Caption = 'x^y'
+    OnClick = Button17Click
+    TabOrder = 16
+  end
+  object Button18: TButton
+    Left = 168
+    Height = 40
+    Top = 80
+    Width = 40
+    Caption = 'y√x'
+    OnClick = Button18Click
+    TabOrder = 17
+  end
+  object Button19: TButton
+    Left = 168
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '='
+    OnClick = Button19Click
+    TabOrder = 18
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 29
+    Top = 8
+    Width = 200
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit1Change
+    ParentFont = False
+    TabOrder = 19
+    Text = ' '
+  end
+  object Button20: TButton
+    Left = 8
+    Height = 41
+    Top = 40
+    Width = 120
+    Caption = 'c'
+    OnClick = Button20Click
+    TabOrder = 20
+  end
+  object Button21: TButton
+    Left = 128
+    Height = 41
+    Top = 40
+    Width = 80
+    Caption = 'ce'
+    OnClick = Button21Click
+    TabOrder = 21
+  end
+  object MainMenu1: TMainMenu
+    left = 8
+    object MenuItem1: TMenuItem
+      Caption = 'Конвертер'
+      OnClick = MenuItem1Click
+      object MenuItem4: TMenuItem
+        Caption = 'New Item7'
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'New Item8'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'New Item9'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'New Item2'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'New Item3'
+    end
+  end
+end
