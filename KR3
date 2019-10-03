@@ -1,0 +1,17 @@
+fun main(args: Array<String>) {
+fun fr(a: Int)= a % 10
+fun ft(a: Int)= (a / 10) % 10
+fun fp(a: Int)= (a / 100) % 10
+fun fk(a: Int)= a / 1000
+fun ff(a:Int)=fr(a)+ft(a)+fp(a)+fk(a)
+fun fg(a:Int)=ff(a) % 3
+fun hh(a: Int){
+    println(a)
+    if (fg(a)>0)
+    println("Это число не делится на три")
+    else
+    println("Это число делится на три")
+}
+println(hh(1111))
+}
+
