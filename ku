@@ -1,0 +1,15 @@
+fun main(args: Array<String>) {
+    var a: Int
+    a=0
+    println("Введите строку:")
+    var str = readLine()
+    val parts = str!!.split(" ")
+
+    for(part in parts) {
+        if((part?.length) > 0) {
+            println("В слове '$part':  ${part?.length} букв(а/ы)")
+            a+=1
+        }
+    }
+    println("Всего в строке ${str?.length} символов и ${a} слов(о/а)")
+}
