@@ -1,11 +1,8 @@
 fun main(args: Array<String>) {
-fun fg(a:Int)=(a % 10) + ((a / 10) % 10) + ((a / 100) % 10) + (a / 1000) % 3
-fun hh(a: Int){
-    println(a)
-    if (fg(a)>0)
+    val a: Int = 2100 
+    println (a)
+    if (((a % 10) + ((a / 10) % 10) + ((a / 100) % 10) + (a / 1000) % 3)>0)
     println("Это число не делится на три")
     else
     println("Это число делится на три")
-}
-println(hh(1111))
 }
